@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/beer-dash/static/css/main.5ef52c24.chunk.css",
+    "main.js": "/beer-dash/static/js/main.6e456e0f.chunk.js",
+    "main.js.map": "/beer-dash/static/js/main.6e456e0f.chunk.js.map",
+    "runtime~main.js": "/beer-dash/static/js/runtime~main.7c6b497b.js",
+    "runtime~main.js.map": "/beer-dash/static/js/runtime~main.7c6b497b.js.map",
+    "static/js/2.1d26fccd.chunk.js": "/beer-dash/static/js/2.1d26fccd.chunk.js",
+    "static/js/2.1d26fccd.chunk.js.map": "/beer-dash/static/js/2.1d26fccd.chunk.js.map",
+    "index.html": "/beer-dash/index.html",
+    "precache-manifest.14fb94f61dd83739b202ba80600f3954.js": "/beer-dash/precache-manifest.14fb94f61dd83739b202ba80600f3954.js",
+    "service-worker.js": "/beer-dash/service-worker.js",
+    "static/css/main.5ef52c24.chunk.css.map": "/beer-dash/static/css/main.5ef52c24.chunk.css.map",
+    "static/media/cold-beer.png": "/beer-dash/static/media/cold-beer.72b6a2a6.png"
+  }
+}
