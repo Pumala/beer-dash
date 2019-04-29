@@ -1,0 +1,109 @@
+@import '../../styles/styles.scss';
+
+.beer-dash {
+    .beer-dash-top {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        .column-names {
+            margin: 0;
+            padding: 10px 5px;
+            background-color: #222;
+            width: 100%;
+            color: #fff;
+            li {
+                list-style-type: none;
+                display: inline-block;
+                width: 20%;
+                font-size: 14px;
+                &.beer-number {
+                    width: 26px;
+                }
+                &.beer-name {
+                    width: 42%;
+                }
+                &.beer-abv {
+                    width: 12%;
+                }
+                &.non-mobile {
+                    display: none;
+                }
+            }
+        }
+    }
+    .table-wrapper {
+        padding: 109px 0 70px 0;
+        overflow: scroll;
+        .table {
+            border-collapse: collapse;  
+            width: 100%;  
+           tr {
+                &:nth-of-type(odd) {
+                    background-color: #fff;
+                }
+               &:nth-of-type(even) {
+                    background-color: #7ee6dd;
+                }
+            td {
+                padding: 5px 0;
+                font-size: 12px;
+                &.non-mobile {
+                    display: none;
+                }
+                &:nth-of-type(odd) {
+                    padding-left: 5px;
+                    padding-right: 5px;
+                }
+            }
+           }
+        }
+    }
+}
+
+@media screen and (min-width: 440px) {
+    .beer-dash {
+        .beer-dash-top {
+            .column-names {
+                li {
+                    font-size: 16px;
+                }
+            }
+        }
+        .table-wrapper {
+            .table {
+                tr {
+                    td {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .beer-dash {
+        .beer-dash-top {
+            .column-names {
+                li.beer-name {
+                    width: 44%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .beer-dash {
+        .beer-dash-top {
+            .column-names {
+                li.beer-name {
+                    width: 45%;
+                }
+                li.beer-abv {
+                    width: 9%
+                }
+            }
+        }
+    }
+}

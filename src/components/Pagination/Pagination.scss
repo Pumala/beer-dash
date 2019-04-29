@@ -1,0 +1,42 @@
+.Pagination {
+    padding: 8px 0;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    .Pagination-button {
+        text-align: center;
+        border: none;
+        border-radius: 16px;
+        background-color: #F3C343;
+        transition: background-color .2s;
+        color: white;
+        cursor: pointer;
+        margin: 10px;
+        width: 44px;
+        height: 34px;
+        &:hover {
+            opacity: .9;
+        }
+        &:focus {
+            outline: none;
+        }
+        &:disabled {
+            background-color: #7d8a98;
+            cursor: not-allowed;
+        }
+    }
+    .Pagination-info {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 440px) {
+    .Pagination {
+        .Pagination-info {
+            font-size: 14px;
+        }
+    }
+}    

@@ -1,0 +1,19 @@
+@import '../../styles/styles.scss';
+
+.header {
+    background: #222;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    z-index: 9999;
+
+    .logo {
+        width: 40px;
+        position: absolute;
+        top: 15px;
+        left: 5px;
+    }
+}
